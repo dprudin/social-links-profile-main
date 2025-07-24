@@ -134,3 +134,9 @@ body {
     box-shadow: 0px 3px 6px var(--grey-900);
     cursor: pointer;
 }
+
+/* Add focus styles for better keyboard navigation */
+.btn:focus {
+    outline: 2px solid var(--green);
+    outline-offset: 4px;
+}
